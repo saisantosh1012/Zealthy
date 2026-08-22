@@ -1,0 +1,115 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Mark Johnson",
+      "email": "mark@some-email-provider.net",
+      "password": "Password123!",
+      "phone": "(555) 010-1122",
+      "dob": "1985-03-14",
+      "appointments": [
+        {
+          "id": 1,
+          "provider": "Dr Kim West",
+          "datetime": "2026-08-24T14:43:46.329Z",
+          "repeat": "weekly",
+          "repeat_until": null
+        },
+        {
+          "id": 2,
+          "provider": "Dr Lin James",
+          "datetime": "2026-09-03T14:43:46.329Z",
+          "repeat": "monthly",
+          "repeat_until": null
+        }
+      ],
+      "prescriptions": [
+        {
+          "id": 1,
+          "medication": "Lexapro",
+          "dosage": "5mg",
+          "quantity": 2,
+          "refill_on": "2026-08-25",
+          "refill_schedule": "monthly"
+        },
+        {
+          "id": 2,
+          "medication": "Ozempic",
+          "dosage": "1mg",
+          "quantity": 1,
+          "refill_on": "2026-09-13",
+          "refill_schedule": "monthly"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lisa Smith",
+      "email": "lisa@some-email-provider.net",
+      "password": "Password123!",
+      "phone": "(555) 010-3344",
+      "dob": "1990-11-02",
+      "appointments": [
+        {
+          "id": 3,
+          "provider": "Dr Sally Field",
+          "datetime": "2026-08-27T14:43:46.329Z",
+          "repeat": "monthly",
+          "repeat_until": null
+        },
+        {
+          "id": 4,
+          "provider": "Dr Lin James",
+          "datetime": "2026-09-07T14:43:46.329Z",
+          "repeat": "weekly",
+          "repeat_until": null
+        }
+      ],
+      "prescriptions": [
+        {
+          "id": 3,
+          "medication": "Metformin",
+          "dosage": "500mg",
+          "quantity": 2,
+          "refill_on": "2026-08-28",
+          "refill_schedule": "monthly"
+        },
+        {
+          "id": 4,
+          "medication": "Diovan",
+          "dosage": "100mg",
+          "quantity": 1,
+          "refill_on": "2026-09-18",
+          "refill_schedule": "monthly"
+        }
+      ]
+    }
+  ],
+  "medications": [
+    "Diovan",
+    "Lexapro",
+    "Metformin",
+    "Ozempic",
+    "Prozac",
+    "Seroquel",
+    "Tegretol"
+  ],
+  "dosages": [
+    "1mg",
+    "2mg",
+    "3mg",
+    "5mg",
+    "10mg",
+    "25mg",
+    "50mg",
+    "100mg",
+    "250mg",
+    "500mg",
+    "1000mg"
+  ],
+  "nextIds": {
+    "patient": 3,
+    "appointment": 5,
+    "prescription": 5
+  }
+}

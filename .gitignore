@@ -1,0 +1,5 @@
+node_modules
+.next
+.netlify
+data/db.local.json
+.env*.local
